@@ -1,0 +1,25 @@
+{
+  "name": "starterapp",
+  "description": "A basic template for a polymer webapp",
+  "main": "index.js",
+  "authors": [
+    "Dan Steren"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "polymer",
+    "app",
+    "web"
+  ],
+  "homepage": "https://github.com/xaves/starterApp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  }
+}
