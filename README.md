@@ -1,4 +1,5 @@
 # patriarchal
+#### A patriarchal blessing viewer with note taking and highlighting functionality
 
 ## Get Started
 
@@ -10,4 +11,4 @@
 These should be run in separate terminals
 
 1. `npm run webpack`
-2. `npm run server`
+2. `npm start`
