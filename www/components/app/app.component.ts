@@ -1,14 +1,23 @@
+import {data} from './mock-data.ts';
+
 class AppComponent {
     public is;
     public properties;
 
     beforeRegister() {
-        this.is = 'ds-app';
+        this.is = 'patriarchal-app';
         this.properties = {
+            userID: Number,
+            user: String,
+            blessingText: String
         }
     }
 
-    ready() {}
+    ready() {
+        this.userID = 0;
+        this.user = data[this.userID].user;
+        this.blessingText = data[this.userID].blessing;
+    }
     attached() {}
     detached() {}
     attributeChanged() {}

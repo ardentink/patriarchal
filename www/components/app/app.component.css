@@ -1,0 +1,26 @@
+patriarchal-app {
+	display: block;
+	max-width: 912px;
+	height: 100vh;
+	margin: 0 auto;
+    background: red;
+}
+
+.title-bar {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+    height: 48px;
+    width: 100%;
+    background: #1976D2;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.content-area {
+  padding: 20px 10px 10px 10px;
+  background: #CFD8DC;
+  height: 100vh;
+  color: #212121;
+}

@@ -1,6 +1,10 @@
 <link rel="import" href="/bower_components/polymer/polymer.html">
 
-<dom-module id="ds-app">
-    <template>The App component works</template>
+<dom-module id="patriarchal-app">
+    <link rel="stylesheet" href="app.component.css">
+    <template>
+        <div class="title-bar"> {{user}}'s Blessing</div>
+        <div class="content-area">{{blessingText}}</div>
+    </template>
     <script src="/dist/app.component.js"></script>
 </dom-module>
